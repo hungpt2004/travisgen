@@ -1,0 +1,4 @@
+{
+    "BASE_URL": "https://racketball.kamora.dev",
+    "WS_URL": "wss://racketball.kamora.dev/relay/"
+}
