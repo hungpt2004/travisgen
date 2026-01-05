@@ -45,7 +45,7 @@ class BaseState<T> extends Equatable {
   }
 
   BaseState<T> success(T data) => BaseState<T>(data, status: HandleStatus.success);
-  BaseState<T> error(ErrorState err) => this.copyWith(err: Wrapped.value(err), status: HandleStatus.error);
+  BaseState<T> error(ErrorState err) => copyWith(err: Wrapped.value(err), status: HandleStatus.error);
 
   BaseState<T> get loading => copyWith(status: HandleStatus.loading, err: const Wrapped.value(null));
 

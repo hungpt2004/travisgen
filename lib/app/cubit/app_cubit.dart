@@ -1,5 +1,5 @@
-import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
+import 'package:flutter_bloc/flutter_bloc.dart' show Cubit;
 import 'package:geolocator/geolocator.dart';
 import 'package:travisgen_client/common/extension/context_extension.dart';
 

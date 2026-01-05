@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:travisgen_client/common/extension/context_extension.dart';
 import 'package:travisgen_client/common/theme/app_size.dart';
 
+// ignore: constant_identifier_names
 enum ToastPosition { TOP, BOTTOM }
 
 abstract class ToastUtil {
